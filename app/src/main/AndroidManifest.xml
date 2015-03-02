@@ -15,7 +15,25 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+             </activity>
+        <activity android:name="com.marinakhrolenko.sunshinenew.DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName="com.marinakhrolenko.sunshinenew.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.marinakhrolenko.sunshinenew.MainActivity" />
         </activity>
-    </application>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="com.marinakhrolenko.sunshinenew.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.marinakhrolenko.sunshinenew.MainActivity" />
+        </activity>
+           </application>
 
 </manifest>
+
+
+
+
